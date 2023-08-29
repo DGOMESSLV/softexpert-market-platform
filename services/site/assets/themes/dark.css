@@ -1,1 +1,15 @@
-.dark-theme {}
+.dark-theme {
+    --body-bg: var(--dark-gray-90);
+
+    --navbar-bg: var(--dark-gray-100);
+    --navbar-toggler-fg: var(--white-80);
+    --navbar-toggler-active-bg: var(--dark-gray-60);
+    --navbar-item-fg: var(--white-80);
+    --navbar-item-active-bg: var(--dark-gray-60);
+    --navbar-item-active-fg: var(--white-90);
+    --navbar-item-current-bg: rgba(var(--pink-100-rgb), .15);
+    --navbar-item-current-fg: var(--pink-100);
+
+    --button-theme-primary-bg: var(--pink-100);
+    --button-theme-primary-fg: var(--white-100);
+}

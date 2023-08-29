@@ -1,1 +1,15 @@
-.light-theme {}
+.light-theme {
+    --body-bg: var(--white-90);
+
+    --navbar-bg: var(--white-100);
+    --navbar-toggler-fg: var(--gray-90);
+    --navbar-toggler-active-bg: var(--gray-30);
+    --navbar-item-fg: var(--gray-80);
+    --navbar-item-active-bg: var(--white-80);
+    --navbar-item-active-fg: var(--gray-90);
+    --navbar-item-current-bg: rgba(var(--pink-100-rgb), .1);
+    --navbar-item-current-fg: var(--pink-100);
+
+    --button-theme-primary-bg: var(--pink-100);
+    --button-theme-primary-fg: var(--white-100);
+}

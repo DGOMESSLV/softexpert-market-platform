@@ -1,0 +1,23 @@
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+html, body {
+    background: var(--body-bg);
+}
+
+.btn-theme-primary {
+    border-color: var(--button-theme-primary-bg);
+    background: var(--button-theme-primary-bg);
+    color: var(--button-theme-primary-fg);
+}
+
+.btn-theme-primary:hover,
+.btn-theme-primary:active,
+.btn-theme-primary:focus {
+    border-color: var(--button-theme-primary-bg);
+    background: var(--button-theme-primary-bg);
+    color: var(--button-theme-primary-fg);
+    filter: brightness(.9);
+}

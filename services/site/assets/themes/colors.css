@@ -1,1 +1,27 @@
-:root {}
+:root {
+    --white-100: #FFFFFF;
+    --white-90: #F2F2F2;
+    --white-80: #E6E6E6;
+
+    --gray-100: #262626;
+    --gray-90: #404040;
+    --gray-80: #595959;
+    --gray-70: #666666;
+    --gray-60: #808080;
+    --gray-50: #A6A6A6;
+    --gray-40: #CCCCCC;
+    --gray-30: #D9D9D9;
+    
+    --dark-gray-100: #121212;
+    --dark-gray-90: #1D1D1D;
+    --dark-gray-80: #232323;
+    --dark-gray-70: #262626;
+    --dark-gray-60: #2D2D2D;
+
+    --pink-100: #DF0E74;
+}
+
+/* RGB variations for opacity colors */
+:root {
+    --pink-100-rgb: 223, 14, 116;
+}
